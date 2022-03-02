@@ -21,7 +21,7 @@ const ProductDetails = () => {
     const {productID} = useParams();
     const shoe = shoes[productID];
     const {name, image} = shoe
-    console.log(image)
+    
   return (
     <div>
         <h4>{name}</h4>
