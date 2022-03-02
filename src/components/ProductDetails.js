@@ -25,7 +25,7 @@ const ProductDetails = () => {
   return (
     <div>
         <h4>{name}</h4>
-        <img src={image} width="500" height="600" alt={name}></img>
+        <img src={image} width="400" height="500" alt={name}></img>
     </div>
   )
 }

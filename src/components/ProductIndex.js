@@ -20,10 +20,10 @@ export const ProductIndex = () => {
     <div>
         <ul>
         {Object.entries(shoes).map(([productID, { name, image }]) => (
-          <li key={productID}>
+          <li key={productID} style = {{display: "inline-flex", margin: "30px"}} >
             <Link to={productID}>
               <h2>{name}</h2>
-              <img src={image} width="500" height="600" alt={name}></img>
+              <img src={image} style = {{border: "solid pink" }} width="200" height="200" alt={name}></img>
             </Link>
           </li>
         ))}
